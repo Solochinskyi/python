@@ -1,3 +1,12 @@
-print("Hello world")
+#print("Hello world")
+#print('* * * * *')
 
-print('* * * * *')
+
+
+
+
+side = int(input("Enter side :"))
+for i in range(side):
+    for i in range(side):
+        print('#', end = '  ')
+    print()
