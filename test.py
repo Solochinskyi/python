@@ -1,3 +1,2 @@
-print('test file')
-a =10
-b =20
+name = input('Enter your name: ')
+print('Hello',name)
